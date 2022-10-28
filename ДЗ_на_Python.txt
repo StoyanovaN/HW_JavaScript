@@ -1,0 +1,19 @@
+def check_age():
+   age_1 = input('Введите возрост №1: ')
+   age_2 = input('Введите возрост №2: ')
+   age_3 = input('Введите возрост №3: ')
+   try:
+      age_1 = int(age_1)
+      age_2 = int(age_2)
+      age_3 = int(age_3)
+      if age_1 < age_2:
+         return print(f'You dont\'t have access cause your age is {age_1} It\'s less then {age_2}')
+      elif age_1 >= age_2 and age_1 < age_3:
+         return print('Welcome!')
+      elif age_1 > age_3:
+         return print('Keep calm and look Culture chanel')
+   except Exception:
+      print('Функция может работать только с цифрами!')
+
+
+const = check_age()
