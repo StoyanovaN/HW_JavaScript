@@ -1,0 +1,13 @@
+1.
+degree_list = range(1, 11)
+for i in degree_list:
+	print(2**i)
+
+
+1*.
+def degree():
+	num = int(input("¬ведите степень, в которую возведетс€ 2: "))
+	return 2**num
+
+
+print(degree())
